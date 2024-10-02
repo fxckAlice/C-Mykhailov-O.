@@ -1,0 +1,112 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/129.0.0.0 Safari/537.36 Edg/129.0.0.0" version="24.7.17">
+  <diagram id="C5RBs43oDa-KdzZeNtuy" name="Page-1">
+    <mxGraphModel dx="1678" dy="921" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="WIyWlLk6GJQsqaUBKTNV-1" parent="WIyWlLk6GJQsqaUBKTNV-0" />
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-0" value="Enter the number" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="314" y="60" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-6" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-1" target="B_jyJnxlc0DIivSUm7KV-5">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-19" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-1" target="B_jyJnxlc0DIivSUm7KV-0">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-1" value="Is it integer?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="120" width="120" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-4" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="394" y="148" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-5" value="Transform number to string" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="270" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-7" value="Yes" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="325" y="220" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-8" value="Initialize a variable for answer with 1" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="330" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-11" value="Initialize iterator with 0&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="390" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-16" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="325" y="650" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-31" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-13" target="B_jyJnxlc0DIivSUm7KV-30">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-13" value="Is iterator less then number length?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="260" y="450" width="130" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-15" target="B_jyJnxlc0DIivSUm7KV-20">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="220" y="560" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-24" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-15" target="B_jyJnxlc0DIivSUm7KV-23">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-15" value="Is char on pos. iterator not equal to 7?&amp;nbsp;" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="257.5" y="710" width="135" height="180" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-17" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="290" y="598" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-18" value="Print the char" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="265" y="650" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-20" value="Increase the iterator" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="180" y="495" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-22" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="220" y="768" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=0;exitDx=0;exitDy=0;entryX=0.5;entryY=1;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-23" target="B_jyJnxlc0DIivSUm7KV-25">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-23" value="Increase the answer&amp;nbsp;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="738" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-25" target="B_jyJnxlc0DIivSUm7KV-20">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-25" value="Save the successful iteration with bool" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="40" y="495" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-28" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="285" y="880" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-30" target="B_jyJnxlc0DIivSUm7KV-34">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="450" y="720" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-37" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="WIyWlLk6GJQsqaUBKTNV-1" source="B_jyJnxlc0DIivSUm7KV-30" target="B_jyJnxlc0DIivSUm7KV-36">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-30" value="Was there any successful iteration?" style="rhombus;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="520" y="550" width="170" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-32" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="390" y="498" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-34" value="Result: ${answer}" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="430" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-35" value="Yes" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="490" y="598" width="40" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-36" value="Result: No valid iteration" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="667" y="730" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="B_jyJnxlc0DIivSUm7KV-38" value="No" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="WIyWlLk6GJQsqaUBKTNV-1">
+          <mxGeometry x="690" y="598" width="40" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
