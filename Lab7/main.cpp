@@ -60,6 +60,22 @@ void third_task() {
     cout << "+" << endl;
 }
 int main() {
-    third_task();
+    cout << "1. Collatz's hypothesis;\n2. Some actual evaluations – finding the value of π;\n3. Drawing squares (actually: rectangles).\nChoose the task: " << endl;
+    int task;
+    cin >> task;
+    switch (task) {
+        case 1:
+            first_task();
+        break;
+        case 2:
+            second_task();
+        break;
+        case 3:
+            third_task();
+        break;
+        default:
+            cout << "Invalid Choose Task" << endl;
+
+    }
     return 0;
 }
