@@ -85,9 +85,9 @@ void fifth_task() {
     int ans = 1;
     bool ifHasValidPart = false;
     for(int i = 0; i < numStr.length(); i++) {
+        cout << i + 1 << ": " << numStr[i] << endl;
         if(numStr[i] != '7') {
             ans *= numStr[i] - '0';
-            cout << i + 1 << ": " << numStr[i] << endl;
             ifHasValidPart = true;
         }
     }
