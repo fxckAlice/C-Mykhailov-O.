@@ -29,7 +29,8 @@ struct Date {
         else {
             minutes = sdMinutes - minutes;
         }
-        cout << hours << ":" << minutes << endl;
+        string ifLessThanTen = (minutes < 10) ? "0" : "" ;
+        cout << hours << ":" << ifLessThanTen << minutes << endl;
     }
 };
 

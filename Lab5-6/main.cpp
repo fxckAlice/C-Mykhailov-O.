@@ -11,7 +11,7 @@ void first_task() {
     for (int i = 0; i < 5; i++) {
         do {
             cout << "Please enter a number " << i + 1 << ": " << endl;
-        }while (cin >> arr[i]);
+        }while (!(cin >> arr[i]));
     }
     for (int i = 0; i < 5; i++) {
         cout << i + 1 << ": " << function_first(arr[i]) << endl;
@@ -19,7 +19,7 @@ void first_task() {
 }
 
 void second_task() {
-    long ans = 1;
+    double ans = 1;
     for (int i = 1; i <= 100; i++) {
         if (i % 3 == 0) {
             ans *= i;
@@ -58,7 +58,7 @@ void third_task() {
     }
 }
 
-void fourth_task() {
+void fourth_task(){
     int m;
     do{
         do {
@@ -91,7 +91,7 @@ void fifth_task() {
             ifHasValidPart = true;
         }
     }
-    cout << "Result: " << ((ans == 1 && ifHasValidPart) ? "No valid numbers!" : to_string(ans)) << endl;
+    cout << "Result: " << ((ans == 1 && !ifHasValidPart) ? "No valid numbers!" : to_string(ans)) << endl;
 
 
 }

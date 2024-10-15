@@ -66,7 +66,7 @@ void third_task() {
     cout << "Main array : " << endl;
     int arr[10];
     for (int i = 0; i < 10; i++) {
-        arr[i] = rand() % 100 - 50;
+        arr[i] = rand() % 10;
         cout << arr[i] << "\t";
     }
 

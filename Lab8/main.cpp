@@ -69,6 +69,7 @@ void second_task() {
     for (int i = 0; i < 10; i++) {
         if (arr[i] < 0 and i < maxInt) {
             arr[i] = 0;
+            break;
         }
     }
     cout << endl << endl;
