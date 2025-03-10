@@ -16,8 +16,8 @@ int main() {
             *(*(arr + i) + j) = rand() % 101 - 50;
             cout << *(*(arr + i) + j) << "\t";
 
-            if(*(*(arr + i) + j) % 2 == 0) odds++;
-            else evens++;
+            if(*(*(arr + i) + j) % 2 == 0) evens++;
+            else odds++;
         }
         cout << endl << endl;
     }
