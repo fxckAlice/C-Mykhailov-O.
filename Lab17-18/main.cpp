@@ -1,6 +1,5 @@
+#include <cmath>
 #include <iostream>
-#include <math.h>
-#include <valarray>
 using namespace std;
 
 bool isPrime(int n) {
