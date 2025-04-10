@@ -1,0 +1,3 @@
+C:/Users/Alexander/Documents/Course 2/DT/C++/Lab20/cmake-build-debug/CMakeFiles/Lab20.dir
+C:/Users/Alexander/Documents/Course 2/DT/C++/Lab20/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Alexander/Documents/Course 2/DT/C++/Lab20/cmake-build-debug/CMakeFiles/rebuild_cache.dir
