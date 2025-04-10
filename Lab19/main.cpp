@@ -6,9 +6,10 @@ using namespace std;
 
 void task_1() {
     string values;
-    cin >> values;
     string templt;
-    cin >> templt;
+
+    getline(cin, values);
+    getline(cin, templt);
     int index_of_divider = 0;
     for (int i = 0; i < values.size(); i++) {
         if (values[i] == ',') {
@@ -79,6 +80,7 @@ int main() {
     int task;
     cout << "Enter the number of tasks: ";
     cin >> task;
+    cin.ignore();
     switch (task) {
         case 1:
             task_1();

@@ -1,5 +1,6 @@
 #include <iostream>
 #include <ctime>
+#include <iomanip>
 using namespace std;
 
 void first_task() {
@@ -17,8 +18,9 @@ void first_task() {
 
     double *arr = new double[size];
     for (int i = 0; i < size; i++) {
-        arr[i] = (double) rand() / (double) RAND_MAX - 0.5;
-        cout << arr[i] << "\t";
+        arr[i] = ((double) rand() / (double) RAND_MAX - 0.5) * 4;
+        cout.width(10);
+        cout << setprecision(3) << arr[i];
         if (arr[i] < 0) {
             negative++;
         }

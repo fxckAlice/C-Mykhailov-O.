@@ -27,7 +27,7 @@ int main() {
 
     switch (task) {
         case 1:
-            for (int i = 1; i <= 21; i++) {
+            for (int i = 2; i <= 21; i++) {
                 if (isPrime(i)) {
                     cout << i << " ";
                 }

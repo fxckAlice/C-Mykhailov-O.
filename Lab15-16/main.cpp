@@ -17,14 +17,14 @@ Date today() {
     };
 }
 bool isLeap(int year) {
-    return year % 4 == 0;
+    return year % 4 == 0 && year % 100 != 0 || year % 400 == 0;
 }
-int monthLength(int year, int month) {
+int monthLengthSwitch(int year, int month) {
     switch (month) {
         case 1:
             return 31;
         case 2:
-            return year % 4 == 0 ? 29 : 28;
+            return isLeap(year) ? 29 : 28;
         case 3:
             return 31;
         case 4:
@@ -49,6 +49,14 @@ int monthLength(int year, int month) {
             return 0;
     }
 }
+int monthLengthArr(int year, int month) {
+    int lengthArr [12] = {31, 28, 31, 30, 31, 30, 31, 31, 30, 31, 30, 31};
+    if (month == 2 && isLeap(year)) {
+        return 29;
+    }
+    return lengthArr[month - 1];
+}
+
 int main() {
     int task;
     cout << "Enter the number of tasks: ";
@@ -60,7 +68,7 @@ int main() {
         case 2:
             for(int yr = 2000; yr < 2002; yr++) {
                 for(int mo = 1; mo <= 12; mo++)
-                    cout << monthLength(yr,mo) << " ";
+                    cout << monthLengthSwitch(yr,mo) << " ";
                 cout << endl;
             }
         case 3:
@@ -95,7 +103,7 @@ int main() {
                         return 1;
                     }
                     period.month -= 1;
-                    t.day += monthLength(birth.year, birth.month);
+                    t.day += monthLengthSwitch(birth.year, birth.month);
                 }
                 period.day = t.day - birth.day;
 
