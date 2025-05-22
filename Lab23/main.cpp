@@ -11,6 +11,9 @@ public:
     Fraction minus(Fraction that);
     Fraction times(Fraction that);
     Fraction by(Fraction that);
+    bool isGreaterThan(Fraction that);
+    bool isLessThan(Fraction that);
+    bool isEqual(Fraction that);
 private:
     int numerator;
     int denominator;
@@ -28,7 +31,7 @@ Fraction::Fraction(int numerator, int denominator) {
         this->numerator = numerator;
         this->denominator = denominator;
     }
-
+    this->reduce();
 }
 string Fraction::toString() {
     string answer;
@@ -78,16 +81,30 @@ Fraction Fraction::by(Fraction that) {
     result.reduce();
     return result;
 }
-
+bool Fraction::isGreaterThan(Fraction that) {
+    return this->toDouble() > that.toDouble();
+}
+bool Fraction::isLessThan(Fraction that) {
+    return this->toDouble() < that.toDouble();
+}
+bool Fraction::isEqual(Fraction that) {
+    return this->toDouble() == that.toDouble();
+}
+char sym_to_compare(Fraction f1, Fraction f2) {
+    if (f1.isGreaterThan(f2)) {
+        return '>';
+    }
+    if (f1.isLessThan(f2)) {
+        return '<';
+    }
+    return '=';
+}
 int main() {
     cout << "Enter two fractions:";
     string first, second;
     cin >> first >> second;
     Fraction f1(stoi(first.substr(0, first.find('/'))), stoi(first.substr(first.find('/') + 1, first.length())));
     Fraction f2(stoi(second.substr(0, second.find('/'))), stoi(second.substr(second.find('/') + 1, second.length())));
-    cout << f1.toString() << " + " << f2.toString() << " = " << f1.plus(f2).toString() << endl;
-    cout << f1.toString() << " - " << f2.toString() << " = " << f1.minus(f2).toString() << endl;
-    cout << f1.toString() << " * " << f2.toString() << " = " << f1.times(f2).toString() << endl;
-    cout << f1.toString() << " / " << f2.toString() << " = " << f1.by(f2).toString() << endl;
+    cout << f1.toString() << sym_to_compare(f1, f2) << f2.toString() << endl;
     return 0;
 }
